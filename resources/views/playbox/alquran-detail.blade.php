@@ -113,7 +113,7 @@
                                                 url="https://api.npoint.io/99c279bb173a6e28359c/surat/{{ $alquran->id }}">
                                                 <div
                                                     class="overflow-auto max-h-96 max-w-60 px-4 py-6 grid grid-col-1 gap-4 sm:px-0">
-                                                    {{-- <dt class="text-sm font-medium leading-6 text-gray-900">Baca --}}
+                                                    
                                                     </dt>
                                                     <dd v-for="item in response" :key="`${item.nomor}`"
                                                         class="mt-1 text-center leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
